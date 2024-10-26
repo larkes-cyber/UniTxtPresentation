@@ -23,5 +23,19 @@ A text uniqueness service is a B2B2C platform that creates a registry of unique 
 ## System Architecture
 <img width="1072" alt="Scheme" src="https://github.com/user-attachments/assets/b6bd5e89-4c25-46f9-b372-c90b3c7e8b49">
 
-
-
+# How to start
+## React app
+### npm start
+Runs the app in the development mode.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Deployment
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## text-unicue-ton SmartContract
+### Build
+`npx blueprint build` or `yarn blueprint build`
+### Test
+`npx blueprint test` or `yarn blueprint test`
+### Deploy or run another script
+`npx blueprint run` or `yarn blueprint run`
+### Add a new contract
+`npx blueprint create ContractName` or `yarn blueprint create ContractName`
